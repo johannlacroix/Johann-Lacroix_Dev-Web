@@ -11,7 +11,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.Johann-Lacroix.me/',
+		url: 'https://johannlacroix.github.io/Johann-Lacroix_Dev-Web/',
 	},
 	{
 		id: 2,
