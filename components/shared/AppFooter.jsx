@@ -11,28 +11,28 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://www.Johann-Lacroix.me/',
 	},
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/johannlacroix',
 	},
-	{
-		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
-	},
+	// {
+	// 	id: 3,
+	// 	icon: <FiTwitter />,
+	// 	url: 'https://twitter.com/realstoman',
+	// },
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/johannlacroix',
 	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
-	},
+	// {
+	// 	id: 5,
+	// 	icon: <FiYoutube />,
+	// 	url: 'https://www.youtube.com/c/realstoman',
+	// },
 ];
 
 function AppFooter() {

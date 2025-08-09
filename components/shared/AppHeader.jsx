@@ -6,6 +6,7 @@ import { FiSun, FiMoon, FiX, FiMenu } from 'react-icons/fi';
 import HireMeModal from '../HireMeModal';
 import logoLight from '../../public/images/logo-light.svg';
 import logoDark from '../../public/images/logo-dark.svg';
+import profile from '../../public/images/profile.jpg';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 
 function AppHeader() {
@@ -50,19 +51,19 @@ function AppHeader() {
 						<Link href="/">
 							{activeTheme === 'dark' ? (
 								<Image
-									src={logoDark}
+									src={profile}
 									className="w-36 cursor-pointer"
-									alt="Dark Logo"
-									width={150}
-									height={120}
+									alt="Portrait of me"
+									width={75}
+									height={75}
 								/>
 							) : (
 								<Image
-									src={logoLight}
+									src={profile}
 									className="w-36 cursor-pointer"
-									alt="Dark Logo"
-									width={150}
-									height={120}
+									alt="Portrait of me"
+									width={75}
+									height={75}
 								/>
 							)}
 						</Link>

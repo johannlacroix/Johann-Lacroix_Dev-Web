@@ -1,56 +1,50 @@
 import { v4 as uuidv4 } from 'uuid';
 
 // Import images
-import AmazonImage from '../public/images/brands/amazon_gray.png';
-import SonyImage from '../public/images/brands/sony_gray.png';
-import AdidasImage from '../public/images/brands/adidas_gray.png';
-import FilaImage from '../public/images/brands/fila_gray.png';
-import NBImage from '../public/images/brands/nb_gray.png';
-import SamsungImage from '../public/images/brands/samsung_gray.png';
-import CanonImage from '../public/images/brands/canon_gray.png';
-import PumaImage from '../public/images/brands/puma_gray.png';
+import ArianeGroupImage from '../public/images/brands/arianegroup_logo.png';
+import DeezerImage from '../public/images/brands/deezer.png';
+import DisneyImage from '../public/images/brands/disney_logo.png';
+import LaCapsuleImage from '../public/images/brands/lacapsule_logo.png';
+import KapslocImage from '../public/images/brands/Logo_Kapsloc_Black.png';
+import ProtechniImage from '../public/images/brands/logo-protechni.jpg';
+import SymabatImage from '../public/images/brands/symabat_logo.png';
 
-export const clientsHeading = 'Some of the brands I worked with';
+export const clientsHeading = 'Ils m’ont fait confiance';
 
 export const clientsData = [
 	{
 		id: uuidv4(),
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'ArianeGroup',
+		img: ArianeGroupImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'Sony',
-		img: SonyImage,
+		title: 'Deezer',
+		img: DeezerImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'Adidas',
-		img: AdidasImage,
+		title: 'Disney',
+		img: DisneyImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'FILA',
-		img: FilaImage,
+		title: 'La Capsule',
+		img: LaCapsuleImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'NB',
-		img: NBImage,
+		title: 'Kapsloc',
+		img: KapslocImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		title: 'Protechni',
+		img: ProtechniImage,
 	},
 	{
 		id: uuidv4(),
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'PUMA',
-		img: PumaImage,
+		title: 'Symabat',
+		img: SymabatImage,
 	},
 ];
