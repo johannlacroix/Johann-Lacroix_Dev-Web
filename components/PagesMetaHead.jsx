@@ -17,9 +17,10 @@ function PagesMetaHead({ title, keywords, description }) {
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Next.js & TailwindCSS Portfolio Project',
-	keywords: 'next.js, react, web, ui',
-	keywords: 'Simple and multi-page next.js and react application',
+	title: 'Johann Lacroix | Chef de projet digital',
+	keywords: 'chef de projet digital, seo, coordination web',
+	description:
+		'Portfolio professionnel de Johann Lacroix, chef de projet digital et SEO.',
 };
 
 export default PagesMetaHead;

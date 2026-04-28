@@ -4,11 +4,11 @@ function AppFooterCopyright() {
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
 				<a
-					href="https://github.com/johannlacroix"
+					href="https://www.linkedin.com/in/johannlacroix"
 					target="__blank"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
-					Next.js & Tailwind CSS Portfolio
+					Chef de projet digital | SEO
 				</a>
 				.{' '}
 				<a
