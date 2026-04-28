@@ -12,20 +12,22 @@ export default function Home() {
 			/>
 
 			<section className="section-space">
-				<p className="text-indigo-500 font-general-medium text-sm sm:text-base uppercase tracking-wide">
-					Johann Lacroix
-				</p>
-				<h1 className="h1-display mt-4">
-					Chef de projet digital | SEO | Coordination de projets web
-				</h1>
-				<p className="body-copy mt-8">
-					J&apos;accompagne la creation et l&apos;evolution de projets web
-					avec un objectif simple : des sites clairs, utiles et orientes
-					resultats.
-				</p>
+				<div className="hero-shell">
+					<p className="text-blue-600 font-general-medium text-sm sm:text-base uppercase tracking-wide">
+						Johann Lacroix
+					</p>
+					<h1 className="h1-display mt-5">
+						Chef de projet digital | SEO | Coordination de projets web
+					</h1>
+					<p className="hero-subtitle">
+						J&apos;accompagne la creation et l&apos;evolution de projets web
+					</p>
+					<p className="body-copy mt-4">
+						avec un objectif simple : des sites clairs, utiles et orientes
+						resultats.
+					</p>
 
-				<div className="mt-10 card-soft">
-					<div className="flex flex-col sm:flex-row gap-4">
+					<div className="mt-10 flex flex-col sm:flex-row gap-4">
 						<Link href="/recruteur" className="cta-primary">
 							<FiBriefcase />
 							Recruter Johann
@@ -36,17 +38,17 @@ export default function Home() {
 						</Link>
 					</div>
 
-					<div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-7 text-sm sm:text-base">
+					<div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-7 text-sm sm:text-base">
 						<a
 							href="https://www.linkedin.com/in/johannlacroix"
 							target="__blank"
-							className="font-general-medium text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-400 duration-300"
+							className="font-general-medium text-slate-700 hover:text-blue-600 duration-300"
 						>
 							LinkedIn
 						</a>
 						<a
 							href="mailto:johann.lacroix@gmail.com"
-							className="inline-flex items-center gap-2 font-general-medium text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-400 duration-300"
+							className="inline-flex items-center gap-2 font-general-medium text-slate-700 hover:text-blue-600 duration-300"
 						>
 							<FiMail />
 							johann.lacroix@gmail.com
@@ -99,6 +101,16 @@ export default function Home() {
 						de pilotage serieux, aligne sur des enjeux d&apos;acquisition et de
 						developpement business.
 					</p>
+				</div>
+				<div className="mt-10 flex flex-col sm:flex-row gap-4">
+					<Link href="/recruteur" className="cta-primary">
+						<FiBriefcase />
+						Recruter Johann
+					</Link>
+					<Link href="/freelance" className="cta-secondary">
+						<FiArrowRight />
+						Travailler avec moi
+					</Link>
 				</div>
 			</section>
 		</div>

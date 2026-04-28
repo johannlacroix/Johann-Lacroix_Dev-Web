@@ -10,7 +10,7 @@ function Freelance() {
 			/>
 
 			<section className="section-space">
-				<p className="text-indigo-500 font-general-medium uppercase tracking-wide text-sm sm:text-base">
+				<p className="text-blue-600 font-general-medium uppercase tracking-wide text-sm sm:text-base">
 					Parcours freelance
 				</p>
 				<h1 className="h1-display mt-4">

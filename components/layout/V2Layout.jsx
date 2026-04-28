@@ -11,15 +11,27 @@ const V2Layout = ({ children }) => {
 			<header className="border-b border-slate-200/80 sticky top-0 bg-white/90 backdrop-blur z-20">
 				<div className="mx-auto w-full max-w-[1100px] px-6 md:px-12 py-4 flex items-center justify-between">
 					<Link
-						href="/v2"
-						className="font-semibold tracking-tight text-slate-900"
+						href="/"
+						className="font-semibold tracking-tight text-slate-900 hover:text-blue-600 transition-colors"
 					>
 						Johann Lacroix
 					</Link>
 					<nav className="flex items-center gap-6 text-sm font-medium text-slate-600">
-						<Link href="/v2">Accueil</Link>
-						<Link href="/v2/recruteur">Recruteur</Link>
-						<Link href="/v2/freelance">Freelance</Link>
+						<Link href="/" className="hover:text-blue-600 transition-colors">
+							Accueil
+						</Link>
+						<Link
+							href="/recruteur"
+							className="hover:text-blue-600 transition-colors"
+						>
+							Recruteur
+						</Link>
+						<Link
+							href="/freelance"
+							className="hover:text-blue-600 transition-colors"
+						>
+							Freelance
+						</Link>
 					</nav>
 				</div>
 			</header>
